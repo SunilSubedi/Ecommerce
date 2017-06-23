@@ -1,7 +1,6 @@
 @extends('frontend.template.main')
 @section('title','| Welcome')
-@section('page-header')
-<div class="container">
+@section('content')
+<a href="{{url('/home')}}" class="btn btn-success btn-large" style="margin:200px 500px 350px">Explore US</a>
 
-   <a href="#" class="btn btn-success btn-large" style="margin:200px 500px 350px">Explore US</a>
-</div>
+@endsection
